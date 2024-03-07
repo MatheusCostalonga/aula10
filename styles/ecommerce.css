@@ -1,0 +1,170 @@
+body{
+    margin: 100vw;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(18, 19, 34);
+}
+
+header .categorias{
+    position: absolute;
+    top: 14%;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+header .categorias div b a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+
+#pesquisa{
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 35vw;
+    height: 4.5vh;
+}
+    #button{  
+    background-color: rgb(18, 19, 34);
+    border: 0;
+    color: white;
+     }
+    #iconeCategoria{
+        color: rgba(255, 255, 255, 0);
+        background-color: rgb(18, 19, 34);
+        border: 0;
+        font-size: 20px;
+        position: absolute;
+        top: 2%;
+        left: 5%;
+    }
+    #iconeLupa{
+        position: absolute;
+        top: 5.5%;
+        left: 63%;
+        font-size:  30px;
+        color: black;
+        background-color: white;
+        border: 0;
+        height: 4vh;
+    }
+    
+    #iconeUsuario{
+        position: absolute;
+        top: 6%;
+        left: 69%;
+        color: white;
+        font-size: 25px;
+    }
+    #iconeCarrinho{
+        background-color: rgb(18, 19, 34) ;
+        color: white;
+        font-size: 25px;
+        border: 0;
+        position: absolute;
+        left: 78%;
+        top: 6.3%;
+    }
+
+.conta{
+    position: absolute;
+    top: 6.2%;
+    left: 71%;
+    font-size: 15px;
+    color: white;
+    font-family: Arial;
+}
+
+/* ------------------------------------------------------------------------------------ */
+@media only screen and (max-width:667px){
+    header{
+        width: 100vw;
+        height: 20vh;
+        background-color: rgb(18, 19, 34);
+    }
+    
+    header .categorias{
+        
+        position: absolute;
+        top: 14%;
+        text-align: center;
+        align-items: center;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    header .categorias div b a{
+        font-size: 10px;
+        text-decoration: none;
+        color: white;
+        font-family: Arial;
+    }
+    
+    #pesquisa{
+     position: absolute;
+     width: 92%;
+     top: 9%;
+     left: 3%;
+    }
+  #button{  
+    background-color: rgb(18, 19, 34);
+    border: 0;
+    color: white;
+  }
+    #iconeCategoria{
+        color: white;
+        background-color: rgb(18, 19, 34);
+        border: 0;
+        font-size: 20px;
+        position: absolute;
+        top: 2%;
+        left: 5%;
+    }
+    #iconeLupa{
+        position: absolute;
+        top: 10%;
+        left: 88%;
+        font-size:  20px;
+        color: black;
+        background-color: white;
+        border: 0;
+    }
+    
+    #iconeUsuario{
+        position: absolute;
+        top: 2%;
+        left: 79%;
+        color: white;
+        font-size: 20px;
+    }
+    #iconeCarrinho{
+        background-color: rgb(18, 19, 34) ;
+        color: white;
+        border: 0;
+        font-size: 20px;
+        position: absolute;
+        left: 87%;
+        top: 2%;
+    }
+    
+    .conta{ 
+        position: absolute;
+        top: 4.5%;
+        left: 82%;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0);
+        font-family: Arial;
+    }
+}
+/* ------------------------------------------------------------------------------------ */
